@@ -175,48 +175,6 @@ const CourseInformation: FC<Props> = ({
         <br />
         <div className="w-full flex justify-between">
           <div className="w-[45%]">
-            <label className={`${styles.label}`}>Course Price</label>
-            <input
-              type="number"
-              name=""
-              //required
-              value={courseInfo.price}
-              onChange={(e: any) =>
-                setCourseInfo({
-                  ...courseInfo,
-                  price: e.target.value,
-                })
-              }
-              id="price"
-              placeholder="21"
-              className={`
-            ${styles.input}`}
-            />
-          </div>
-          <div className="w-[50%]">
-            <label className={`${styles.label} w-[50%]`}>
-              Estimated Price (optional)
-            </label>
-            <input
-              type="number"
-              name=""
-              value={courseInfo.estimatedPrice}
-              onChange={(e: any) =>
-                setCourseInfo({
-                  ...courseInfo,
-                  estimatedPrice: e.target.value,
-                })
-              }
-              id="price"
-              placeholder="28"
-              className={`
-            ${styles.input}`}
-            />
-          </div>
-        </div>
-        <br />
-        <div className="w-full flex justify-between">
-          <div className="w-[45%]">
             <label className={`${styles.label}`} htmlFor="email">
               Course Tags
             </label>
