@@ -223,16 +223,6 @@ const Sidebar = () => {
               setSelected={setSelected}
               logoutBase={false}
             />
-
-            <Item
-              title="Import Data"
-              to="/admin/transcribeVideos"
-              icon={<CloudUploadOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-              logoutBase={false}
-            />
-
             <Typography
               variant="h5"
               className="!text-[18px] text-black dark:text-[#ffffffc1] capitalize !font-[400]"
